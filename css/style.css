@@ -1,0 +1,179 @@
+/* divisão */
+
+/* Essa estrelinha é para ajustar e padrozinar de todos os elementos da pagina*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  divp é o parente ( pai )
+    height é vertical da pagina inteira
+    width é a horizontal da pagina inteira
+    background-color é o fundo da seleção com cor
+    padding é o espaçamento de dentro da seleção
+    flex direction  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado 
+    align-items é para vocÊ alinhar em uma parte que voce quer ( esquerda, centro, direita e etc )*/
+
+.divp {
+    height: auto;
+    width: auto;
+    background-color: #96c4a0fd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+    o divs é o parente ( filho ) que vem depois do pai ( que é responsivo )
+    background-color é o fundo da seleção com cor  
+    margin é oque esta fora da seleção após o padding sendo demarcado
+    width é a horizontal da pagina inteira sendo padronizado pelo width do pai em 100% ( 100vw / vh )
+    border-radius é a borda do quadrado para deixar rendondo
+    border-left é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
+    box-shadow é para deixar o fundo com sombra ;
+*/
+
+.divs {
+    background-color: #f4f5f5;
+    margin: 20px;
+    width: 40%;
+    border-radius: 5px;
+    border-left: 5px solid rgb(36, 124, 65);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*
+    o background-image está definindo a imagem como "../img/pokemon.png" por que ele está voltando utilizando (..) se fosse na mesma seção ou pasta seria (.) 
+    o background-size está definindo a imagem e o tipo de forma (ou exibição) imagem só é definida pelo vh e nao pelo vw pq se não fica esticada ( apenas imagem ) 
+    divs1 é parente (filho) que vem depois do pai que é responsivo
+    display flex é para deixar aquilo que voce esta especificando livre para ser editado de alguma forma especifica que voce quer 
+    flex direction  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado 
+    border-radius é a borda do quadrado para deixar rendondo
+    box-shadow é para deixar o fundo com sombra 
+*/
+
+.divs1 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.divs1 img {
+    margin: 0px;
+    border-radius: 5px;
+    }
+
+
+/*
+   color é para mudar a cor da fonte ou sobre oque voce quer que fique com a cor desejada.
+   font family é uma especificação para as fontes que voce quer
+   text-align é para voce centralizar ou deixar de alguma forma que voce quer
+   background-color é o fundo da seleção com cor
+   margin é oque esta fora da seleção após o padding sendo demarcado
+   width é a horizontal da pagina inteira sendo padronizado pelo width do pai em 100% ( 100vw / vh )
+   border-radius é a borda do quadrado para deixar rendondo
+   border-left é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
+   box-shadow é para deixar o fundo com sombra 
+*/
+
+.header {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f4f5f5;
+    margin: 20px;
+    width: 40%;
+    border-radius: 5px;
+    border-top: 5px solid rgb(36, 124, 65);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/*
+    display flex é para deixar aquilo que voce esta especificando livre para ser editado de alguma forma especifica que voce quer 
+     flex direction  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado
+     gap é para dar espaçamento do que voce quer 
+     padding é o espaçamento de dentro da seleção
+     border-left é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
+     font family é uma especificação para as fontes que voce quer
+*/
+
+.boxForm {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*
+    margin é oque esta fora da seleção após o padding sendo demarcado
+*/
+
+.boxForm label {
+    margin-top: 10px;
+    margin-bottom: 5px; /* Espaçamento entre as opções */
+}
+
+ /* 
+    margin é oque esta fora da seleção após o padding sendo demarcado
+*/
+
+.boxForm input[type="radio"] {
+    margin-right: 10px; /* Espaço entre o botão e o texto */
+}
+
+/*
+    font-size é o tamanho da fonte
+    border-bottom é pra definir oque ela quer na direção
+*/
+
+p {
+    font-size: large;
+    border-bottom: 2px double #37bb8f;
+    padding-bottom: 3px;
+}
+
+
+h3 {
+    margin: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+.divs2 {
+    background-color: #f4f5f5;
+    margin: 20px;
+    width: 40%;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px 300px;
+    border-radius: 5px;
+    border-bottom: 5px solid rgb(36, 124, 65);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+  }
+
+.submit {
+        background-color: #3ab798;
+        color: #fff;
+        border: 2px solid transparent;
+        width: 150px;
+        height: 50px;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: #fff;
+    border-color: #299c6c;
+    color: #17b875;
+  }

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Pokémon</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="divp">
+        <div class="header">
+            <h3> Quiz de Pokémon </h3>
+            <br>
+            <h4> Quiz para aqueles que conhecem tudo sobre vários assuntos da franquia Pokémon.</h4>
+        </div>
+
+        <!-- Início do Card do Quiz -->
+        <div class="divs1"> 
+            <img src="./img/pokemon.png" alt="
+            Imagem Pokemon">
+        </div>
+
+        <!-- Perguntas com opções de seleção -->
+        <div class="divs">
+            <div class="boxForm">
+                <!-- Pergunta 1 -->
+                <p>1 - Qual é a única Pokédex com um pokémon registrado na posição #000?</p>
+
+                <!-- Opções de resposta com radio buttons -->
+                <label>
+                    <input type="radio" name="pokedex" value="kantosDex">
+                    Kanto's Dex
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pokedex" value="sinnohDex">
+                    Sinnoh's Dex
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pokedex" value="unovasDex">
+                    Unova's Dex
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pokedex" value="kalosDex">
+                    Kalos' Dex
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="pokedex" value="hoensDex">
+                    Hoen's Dex
+                </label>
+            </div>
+        </div>
+
+        <!-- Outras seções do card -->
+        <div class="divs">
+            <div class="boxForm">
+                <!-- Pergunta 2 -->
+                <p>2 - Atualmente (março de 2014), não existe nenhum pokémon do tipo Aço puro. Verdadeiro ou falso?</p>
+
+                <!-- Opções de resposta com radio buttons -->
+                <label>
+                    <input type="radio" name="verdadeiro" value="verdadeiro">
+                    Verdadeiro
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="falso" value="falso">
+                    Falso
+                </label>
+            </div>
+        </div>
+        <div class="divs">
+            <div class="boxForm">
+                <!-- Pergunta 3 -->
+                <p>3 - Qual pokémon é considerado o Deus do mundo pokémon?</p>
+
+                <!-- Opções de resposta com descrição ( caixa ) -->
+                <label for="description">Sua resposta:</label>
+                <textarea name="description" id="description" class="block" placeholder="Aqui você coloca a resposta" required></textarea>
+            </div>
+        </div>
+        <div class="divs">
+            <div class="boxForm">
+                <!-- Pergunta 4 -->
+                <p>4 - Qual a região que mais possui pokémons lendários?</p>
+
+                <!-- Opções de resposta com (marcação bolinha ) radio buttons -->
+                <label>
+                    <input type="radio" name="region" value="kantos">
+                    Kanto
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="region" value="johto">
+                    Johto
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="region" value="hoen">
+                    Hoen
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="region" value="sinnoh">
+                    Sinnoh
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="region" value="unova">
+                    Unova
+                </label>
+            </div>
+        </div>
+        <div class="divs2">
+                    <label><input type="submit" value="Enviar" class="submit" />
+           </label> 
+        </div>
+    </div>
+</body>
+</html>
