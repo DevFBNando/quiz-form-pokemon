@@ -1,19 +1,19 @@
 /* divisão */
 
-/* Essa estrelinha é para ajustar e padrozinar de todos os elementos da pagina*/
+/* Essa estrelinha é para ajustar e padronizar todos os elementos da pagina*/.
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*  divp é o parente ( pai )
-    height é vertical da pagina inteira
-    width é a horizontal da pagina inteira
-    background-color é o fundo da seleção com cor
-    padding é o espaçamento de dentro da seleção
-    flex direction  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado 
-    align-items é para vocÊ alinhar em uma parte que voce quer ( esquerda, centro, direita e etc )*/
+/*  divp: é o parente ( pai ).
+    height: é vertical da pagina inteira.
+    width: é a horizontal da pagina inteira.
+    background-color: é o fundo da seleção com cor.
+    padding: é o espaçamento de dentro da seleção.
+    flex direction:  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado.
+    align-items: é para vocÊ alinhar em uma parte que voce quer ( esquerda, centro, direita e etc )*/.
 
 .divp {
     height: auto;
@@ -26,13 +26,13 @@
 }
 
 /*
-    o divs é o parente ( filho ) que vem depois do pai ( que é responsivo )
-    background-color é o fundo da seleção com cor  
-    margin é oque esta fora da seleção após o padding sendo demarcado
-    width é a horizontal da pagina inteira sendo padronizado pelo width do pai em 100% ( 100vw / vh )
-    border-radius é a borda do quadrado para deixar rendondo
-    border-left é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
-    box-shadow é para deixar o fundo com sombra ;
+    o divs: é o parente ( filho ) que vem depois do pai ( que é responsivo ).
+    background-color: é o fundo da seleção com cor.
+    margin: é oque esta fora da seleção após o padding sendo demarcado.
+    width: é a horizontal da pagina inteira sendo padronizado pelo width do pai em 100% ( 100vw / vh ).
+    border-radius: é a borda do quadrado para deixar rendondo.
+    border-left: é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
+    box-shadow: é para deixar o fundo com sombra.
 */
 
 .divs {
@@ -45,13 +45,13 @@
 }
 
 /*
-    o background-image está definindo a imagem como "../img/pokemon.png" por que ele está voltando utilizando (..) se fosse na mesma seção ou pasta seria (.) 
-    o background-size está definindo a imagem e o tipo de forma (ou exibição) imagem só é definida pelo vh e nao pelo vw pq se não fica esticada ( apenas imagem ) 
-    divs1 é parente (filho) que vem depois do pai que é responsivo
-    display flex é para deixar aquilo que voce esta especificando livre para ser editado de alguma forma especifica que voce quer 
-    flex direction  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado 
-    border-radius é a borda do quadrado para deixar rendondo
-    box-shadow é para deixar o fundo com sombra 
+    background-image: está definindo a imagem como "../img/pokemon.png" por que ele está voltando utilizando (..) se fosse na mesma seção ou pasta seria (.).
+    background-size: está definindo a imagem e o tipo de forma (ou exibição) imagem só é definida pelo vh e não pelo vw pq se não fica esticada ( apenas imagem ). 
+    divs1: é parente (filho) que vem depois do pai que é responsivo.
+    display flex: é para deixar aquilo que você esta especificando livre para ser editado de alguma forma específica que voce quer. 
+    flex direction:  ele define o que está sendo sinalizado pra ficar flexível e ser modificado. 
+    border-radius: é a borda do quadrado para deixar rendondo.
+    box-shadow: é para deixar o fundo com sombra.
 */
 
 .divs1 {
@@ -70,15 +70,15 @@
 
 
 /*
-   color é para mudar a cor da fonte ou sobre oque voce quer que fique com a cor desejada.
-   font family é uma especificação para as fontes que voce quer
-   text-align é para voce centralizar ou deixar de alguma forma que voce quer
-   background-color é o fundo da seleção com cor
-   margin é oque esta fora da seleção após o padding sendo demarcado
-   width é a horizontal da pagina inteira sendo padronizado pelo width do pai em 100% ( 100vw / vh )
-   border-radius é a borda do quadrado para deixar rendondo
-   border-left é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
-   box-shadow é para deixar o fundo com sombra 
+   color: é para mudar a cor da fonte ou sobre o que você quer que fique com a cor desejada.
+   font family: é uma especificação para as fontes que você quer.
+   text-align: é para voce centralizar ou deixar de alguma forma que você quer.
+   background-color; é o fundo da seleção com cor.
+   margin: é o que esta fora da seleção após o padding sendo demarcado.
+   width: é a horizontal da pagina inteira sendo padronizado pelo width do pai em 100% ( 100vw / vh ).
+   border-radius: é a borda do quadrado para deixar rendondo.
+   border-left: é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
+   box-shadow: é para deixar o fundo com sombra.
 */
 
 .header {
@@ -94,12 +94,12 @@
 }
 
 /*
-    display flex é para deixar aquilo que voce esta especificando livre para ser editado de alguma forma especifica que voce quer 
-     flex direction  ele define o que esta sendo sinalizado pra ficar flexivel e ser modificado
-     gap é para dar espaçamento do que voce quer 
-     padding é o espaçamento de dentro da seleção
-     border-left é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor especifica.
-     font family é uma especificação para as fontes que voce quer
+    display flex: é para deixar aquilo que você está especificando livre para ser editado de alguma forma especifica que você quer.
+    flex direction:  ele define o que está sendo sinalizado pra ficar flexível e ser modificado.
+    gap: é para dar espaçamento do que você quer.
+    padding: é o espaçamento de dentro da seleção.
+    border-left: é para deixar uma borda ( linha ou pintar uma parte da borda) de alguma cor específica.
+    font family: é uma especificação para as fontes que você quer.
 */
 
 .boxForm {
@@ -112,7 +112,7 @@
 }
 
 /*
-    margin é oque esta fora da seleção após o padding sendo demarcado
+    margin: é o que está fora da seleção após o padding sendo demarcado.
 */
 
 .boxForm label {
@@ -121,7 +121,7 @@
 }
 
  /* 
-    margin é oque esta fora da seleção após o padding sendo demarcado
+    margin: é o que está fora da seleção após o padding estar sendo demarcado.
 */
 
 .boxForm input[type="radio"] {
@@ -129,8 +129,8 @@
 }
 
 /*
-    font-size é o tamanho da fonte
-    border-bottom é pra definir oque ela quer na direção
+    font-size: é o tamanho da fonte.
+    border-bottom: é pra definir o que ela quer na direção.
 */
 
 p {
